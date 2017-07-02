@@ -4,7 +4,7 @@
   "description": "validate-commit-msg aaS",
   "main": "index.js",
   "scripts": {
-    "now-pipeline": "now-pipeline-prune && now-pipeline && now-pipeline-list",
+    "now": "now",
     "now-start": "PRIVATE_KEY=$(echo $PRIVATE_KEY | base64 -d) npm start",
     "start": "probot run ./index.js",
     "test": "echo 'help me write some :)'",
@@ -37,7 +37,7 @@
   },
   "devDependencies": {
     "localtunnel": "1.8.3",
-    "now-pipeline": "1.8.0",
+    "now": "7.1.1",
     "semantic-release": "^6.3.6"
   },
   "files": [
@@ -45,6 +45,7 @@
   ],
   "license": "MIT",
   "now": {
+    "alias": "validate-commit-msg-bot.now.sh",
     "env": {
       "APP_ID": "@app-id",
       "NODE_ENV": "production",

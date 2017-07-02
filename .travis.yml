@@ -8,10 +8,14 @@ node_js:
   - '7'
 before_script:
   - npm prune
-script:
-  - npm run now-pipeline
 after_success:
   - npm run semantic-release
 branches:
   except:
     - /^v\d+\.\d+\.\d+$/
+deploy:
+  script: scripts/deploy.sh
+  provider: script
+  skip_cleanup: true
+  on:
+    branch: master
