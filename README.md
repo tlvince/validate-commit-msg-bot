@@ -11,7 +11,7 @@
 [license-url]: https://opensource.org/licenses/MIT
 [license-image]: https://img.shields.io/npm/l/validate-commit-msg-bot.svg
 
-> Validate-commit-msg aaS
+> validate-commit-msg aaS
 
 ## Installation
 
@@ -32,3 +32,5 @@ var validateCommitMsgBot = require('validate-commit-msg-bot')
 ## License
 
 Released under the [MIT license](http://tlvince.mit-license.org).
+
+Robot emoji courtesy of [EmojiOne](https://www.emojione.com/emoji/1f916).
