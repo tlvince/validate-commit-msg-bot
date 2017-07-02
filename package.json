@@ -1,0 +1,41 @@
+{
+  "name": "validate-commit-msg-bot",
+  "version": "0.0.0",
+  "description": "validate-commit-msg aaS",
+  "main": "index.js",
+  "scripts": {
+    "start": "probot run ./index.js",
+    "test": "echo help me write some :)"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tlvince/validate-commit-msg-bot.git"
+  },
+  "keywords": [
+    "validate",
+    "commit",
+    "pr",
+    "conventional",
+    "git",
+    "probot-plugin"
+  ],
+  "author": "Tom Vincent <git@tlvince.com> (https://tlvince.com)",
+  "engines": {
+    "npm": ">=5",
+    "node": ">=7"
+  },
+  "bugs": {
+    "url": "https://github.com/tlvince/validate-commit-msg-bot/issues"
+  },
+  "homepage": "https://github.com/tlvince/validate-commit-msg-bot#readme",
+  "dependencies": {
+    "probot": "0.7.4"
+  },
+  "devDependencies": {
+    "localtunnel": "1.8.3"
+  },
+  "files": [
+    "index.js"
+  ],
+  "license": "MIT"
+}
