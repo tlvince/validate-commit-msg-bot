@@ -4,9 +4,7 @@
 [![npm version][npm-image]][npm-url]
 [![License][license-image]][license-url]
 
-<p align="center">
-  ![robot image][robot-image]
-</p>
+<img align="center" src="docs/robot.png" alt="robot" />
 
 [travis-url]: https://travis-ci.org/tlvince/validate-commit-msg-bot
 [travis-image]: https://img.shields.io/travis/tlvince/validate-commit-msg-bot.svg
@@ -14,7 +12,6 @@
 [npm-image]: https://img.shields.io/npm/v/validate-commit-msg-bot.svg
 [license-url]: https://opensource.org/licenses/MIT
 [license-image]: https://img.shields.io/npm/l/validate-commit-msg-bot.svg
-[robot-image]: docs/robot.png
 
 > validate-commit-msg aaS
 
