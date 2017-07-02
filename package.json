@@ -5,6 +5,8 @@
   "main": "index.js",
   "scripts": {
     "now-pipeline": "now-pipeline",
+    "now-pipeline-list": "now-pipeline-list",
+    "now-pipeline-prune": "now-pipeline-prune",
     "now-start": "PRIVATE_KEY=$(echo $PRIVATE_KEY | base64 -d) npm start",
     "start": "probot run ./index.js",
     "test": "echo 'help me write some :)'",
