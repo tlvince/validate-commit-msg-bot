@@ -17,17 +17,26 @@
 
 > validate-commit-msg aaS
 
-## Installation
+Runs [validate-commit-msg][] over all commits of new or edited pull requests and set a [status check][] appropriately.
 
-```shell
-npm install --save validate-commit-msg-bot
-```
+Send a PR to [tlvince-sandbox-validate-commit-msg-bot][] to see it in action.
+
+[status check]: https://developer.github.com/v3/repos/statuses/
+[validate-commit-msg]: https://github.com/conventional-changelog/validate-commit-msg
+[tlvince-sandbox-validate-commit-msg-bot]: https://github.com/tlvince/tlvince-sandbox-validate-commit-msg-bot
 
 ## Usage
 
-```js
-var validateCommitMsgBot = require('validate-commit-msg-bot')
-```
+1. Browse to [GitHub Apps - validate commit msg][apps]
+2. Accept the permissions
+3. Allow access to repositories
+
+On the next pull request, a status check from `validate-commit-msg-bot` will appear:
+
+![status-check-screenshot][]
+
+[apps]: https://github.com/apps/validate-commit-msg-bot
+[status-check-screenshot]: docs/status-check-screenshot.png
 
 ## Author
 
