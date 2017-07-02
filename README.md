@@ -4,7 +4,9 @@
 [![npm version][npm-image]][npm-url]
 [![License][license-image]][license-url]
 
-<img align="center" src="docs/robot.png" alt="robot" />
+<p align="center">
+  <img src="docs/robot.png" alt="robot" />
+</p>
 
 [travis-url]: https://travis-ci.org/tlvince/validate-commit-msg-bot
 [travis-image]: https://img.shields.io/travis/tlvince/validate-commit-msg-bot.svg
