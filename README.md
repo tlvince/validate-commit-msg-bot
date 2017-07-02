@@ -35,8 +35,13 @@ On the next pull request, a status check from `validate-commit-msg-bot` will app
 
 ![status-check-screenshot][]
 
+For best results, enable branch protection (in the repository's settings) and require the `validate-commit-msg` status check to pass before merging:
+
+![branch-protection-screenshot][]
+
 [apps]: https://github.com/apps/validate-commit-msg-bot
 [status-check-screenshot]: docs/status-check-screenshot.png
+[branch-protection-screenshot]: docs/branch-protection-screenshot.png
 
 ## Author
 
