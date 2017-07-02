@@ -17,7 +17,7 @@
 
 > validate-commit-msg aaS
 
-Runs [validate-commit-msg][] over all commits of new or edited pull requests and set a [status check][] appropriately.
+Runs [validate-commit-msg][] over all commits of new or edited pull requests and sets an appropriate a [status check][].
 
 Send a PR to [tlvince-sandbox-validate-commit-msg-bot][] to see it in action.
 
