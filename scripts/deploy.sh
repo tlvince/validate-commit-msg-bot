@@ -1,4 +1,7 @@
 #!/bin/sh
-npm run now --public
+
+now="npm run now --token=$NOW_TOKEN"
 repo_name="${TRAVIS_REPO_SLUG##*/}"
-npm run now rm --safe --yes "$repo_name"
+
+$now --public
+$now rm --safe --yes "$repo_name"
