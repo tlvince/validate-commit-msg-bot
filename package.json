@@ -4,6 +4,7 @@
   "description": "validate-commit-msg aaS",
   "main": "index.js",
   "scripts": {
+    "now-pipeline": "now-pipeline",
     "start": "probot run ./index.js",
     "test": "echo 'help me write some :)'",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post"
