@@ -9,9 +9,7 @@ node_js:
 before_script:
   - npm prune
 script:
-  - npm run now-pipeline-prune
   - npm run now-pipeline
-  - npm run now-pipeline-list
 after_success:
   - npm run semantic-release
 branches:
