@@ -1,15 +1,16 @@
 {
   "name": "validate-commit-msg-bot",
-  "version": "0.0.0",
+  "version": "0.0.0-development",
   "description": "validate-commit-msg aaS",
   "main": "index.js",
   "scripts": {
     "start": "probot run ./index.js",
-    "test": "echo help me write some :)"
+    "test": "echo help me write some :)",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tlvince/validate-commit-msg-bot.git"
+    "url": "https://github.com/tlvince/validate-commit-msg-bot.git"
   },
   "keywords": [
     "validate",
@@ -32,7 +33,8 @@
     "probot": "0.7.4"
   },
   "devDependencies": {
-    "localtunnel": "1.8.3"
+    "localtunnel": "1.8.3",
+    "semantic-release": "^6.3.6"
   },
   "files": [
     "index.js"
