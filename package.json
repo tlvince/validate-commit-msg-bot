@@ -20,7 +20,7 @@
     "pr",
     "conventional",
     "git",
-    "probot-plugin"
+    "probot-app"
   ],
   "author": "Tom Vincent <git@tlvince.com> (https://tlvince.com)",
   "engines": {
