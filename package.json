@@ -32,8 +32,8 @@
   },
   "homepage": "https://github.com/tlvince/validate-commit-msg-bot#readme",
   "dependencies": {
-    "probot": "0.7.4",
-    "validate-commit-msg": "2.12.2"
+    "probot": "3.0.0",
+    "validate-commit-msg": "2.14.0"
   },
   "devDependencies": {
     "localtunnel": "1.8.3",
