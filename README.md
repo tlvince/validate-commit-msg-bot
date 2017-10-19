@@ -43,6 +43,23 @@ For best results, enable branch protection (in the repository's settings) and re
 [status-check-screenshot]: docs/status-check-screenshot.png
 [branch-protection-screenshot]: docs/branch-protection-screenshot.png
 
+## Development
+
+1. Setup the repo:
+
+    ```shell
+    git clone https://github.com/tlvince/validate-commit-msg-bot.git
+    cd validate-commit-msg-bot
+    npm install
+    ```
+
+2. Create your own [GitHub app][]
+3. Store the private key as `private-key.pem` in the repo
+4. Start the app with `APP_ID=1234 npm start` where `1234` is your GitHub app's ID
+5. Update your GitHub app's Webhook URL to your localtunnel.me URL
+
+[GitHub app]: https://probot.github.io/docs/development/#configure-a-github-app
+
 ## Author
 
 © 2017 Tom Vincent <git@tlvince.com> (https://tlvince.com)
