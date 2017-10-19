@@ -15,7 +15,7 @@ async function handlePullRequestHook ({github, payload}) {
     const allValid = messages.every(message => isValid(message))
 
     const statusParams = {
-      sha: payload.pull_request.statuses_url.split(/\//).pop(),
+      sha: payload.pull_request.head.sha,
       repo,
       owner,
       state: allValid ? 'success' : 'error',
