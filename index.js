@@ -28,7 +28,10 @@ async function handlePullRequestHook ({github, payload}) {
   })
 }
 
-module.exports = robot => {
-  robot.on('pull_request.opened', handlePullRequestHook)
-  robot.on('pull_request.edited', handlePullRequestHook)
-}
+const events = [
+  'pull_request.opened',
+  'pull_request.edited',
+  'pull_request.synchronize'
+]
+
+module.exports = robot => robot.on(events, handlePullRequestHook)
