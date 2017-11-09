@@ -39,7 +39,7 @@ For best results, enable branch protection (in the repository's settings) and re
 
 ![branch-protection-screenshot][]
 
-[apps]: https://github.com/apps/validate-commit-msg-bot
+[apps]: https://github.com/apps/validate-commit-msg
 [status-check-screenshot]: docs/status-check-screenshot.png
 [branch-protection-screenshot]: docs/branch-protection-screenshot.png
 
