@@ -3,6 +3,9 @@
 [![Build Status][travis-image]][travis-url]
 [![npm version][npm-image]][npm-url]
 [![License][license-image]][license-url]
+![Unmaintained][unmaintained-image]
+
+**UNMAINTAINED**. Please migrate your projects to [commitlint-bot][].
 
 <p align="center">
   <img src="docs/robot.png" alt="robot" />
@@ -14,6 +17,8 @@
 [npm-image]: https://img.shields.io/npm/v/validate-commit-msg-bot.svg
 [license-url]: https://opensource.org/licenses/MIT
 [license-image]: https://img.shields.io/npm/l/validate-commit-msg-bot.svg
+[unmaintained-image]: https://img.shields.io/badge/project-unmaintained-red.svg
+[commitlint-bot]: https://github.com/ahmed-taj/commitlint-bot
 
 > validate-commit-msg aaS
 
